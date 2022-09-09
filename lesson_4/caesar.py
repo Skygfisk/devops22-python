@@ -12,6 +12,6 @@ for i in range(len(text)):
         elif (char.islower()):
             result += chr((ord(char) + s - 97) % 26 + 97)
         else:
-            result += " "
+            result += char
             
 print(result)
